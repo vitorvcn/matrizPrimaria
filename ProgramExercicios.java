@@ -10,6 +10,7 @@ public class ProgramExercicios {
 		
 		int m = sc.nextInt();
 		int n = sc.nextInt();
+		System.out.println("Progama Matriz Primaria");
 		
 		int[][] mat = new int[m][n];
 		
