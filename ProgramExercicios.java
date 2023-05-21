@@ -10,20 +10,27 @@ public class ProgramExercicios {
 		
 		System.out.println("Progama Matriz Primaria");
 
+		System.out.println("Esse programa cria uma matriz e localiza um valor especifico indicado e apresentar os valores dos seus elementos vizinhos.");
+
+		System.out.print("\nInforme o numero de linhas da matriz: ");
 		int m = sc.nextInt();
+		System.out.print("Informa o numero de colunas da matriz: ");
 		int n = sc.nextInt();
 		
 		
 		int[][] mat = new int[m][n];
 		
 		for(int i = 0; i<mat.length; i++) {
+			System.out.printf("Informe o valor da %dª linha.\n", i+1);
 			for(int j = 0; j<mat[i].length; j++) {
 				mat[i][j] = sc.nextInt();
 			}
 		}
 		
+		System.out.print("\nInforme o valor procurado: ");
 		int x = sc.nextInt();
-		
+		System.out.println();
+
 		for(int i = 0; i<mat.length; i++) {
 			for(int j = 0; j<mat[i].length; j++) {
 				if(mat[i][j] == x) {
