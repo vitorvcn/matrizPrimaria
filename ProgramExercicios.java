@@ -8,9 +8,11 @@ public class ProgramExercicios {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Progama Matriz Primaria");
+
 		int m = sc.nextInt();
 		int n = sc.nextInt();
-		System.out.println("Progama Matriz Primaria");
+		
 		
 		int[][] mat = new int[m][n];
 		
